@@ -59,7 +59,7 @@
             </div>
             <div class="container px-0">
                 <nav class="navbar navbar-light navbar-expand-xl py-3">
-                    <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <a href="index.php" class="navbar-brand d-flex align-items-center">
                     <img src="img/logo.png" alt="logo" style="height:90px;width:auto;margin-right:2px;">
                     <h1 class="text-primary display-6">Star<span class="text-secondary">kids</span></h1>
                    </a>
@@ -68,7 +68,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-auto">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="index.php" class="nav-item nav-link active">Home</a>
 
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
@@ -108,7 +108,7 @@
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Gallery</a>
                                 <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                    <a href="gallery-photo.html" class="dropdown-item">photo Gallery</a>
+                                    <a href="gallery-photo.php" class="dropdown-item">photo Gallery</a>
                                     <a href="gallery-latest.html" class="dropdown-item">Latest news</a>
                                     <a href="gallery-event.html" class="dropdown-item">Events</a>
 
@@ -204,7 +204,7 @@
                                 <h6><i class="fas fa-check-circle me-2 text-secondary"></i>Qualified Teacher</h6>
                             </div>
                         </div>
-                        <a href="" class="btn btn-primary px-5 py-3 btn-border-radius">More Details</a>
+                        <a href="about.html" class="btn btn-primary px-5 py-3 btn-border-radius">More Details</a>
                     </div>
                 </div>
             </div>
@@ -245,7 +245,7 @@
                                     <div class="p-4"><i class="fas fa-gamepad fa-6x text-primary"></i></div>
                                     <a href="#" class="h4"> Our Activities</a>
                                     <p class="my-3">Behind every activity we do there are underlying concepts. Children look forward to fun activities we do on daily basis.</p>
-                                    <a href="#" class="btn btn-primary text-white px-4 py-2 my-2 btn-border-radius">Read More</a>
+                                    <a href="system-activities.html" class="btn btn-primary text-white px-4 py-2 my-2 btn-border-radius">Read More</a>
                                 </div>
                             </div>
                         </div>

@@ -1,3 +1,16 @@
+<?php 
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "image_db";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -162,12 +175,12 @@
         <!-- Page Header Start -->
         <div class="container-fluid page-header py-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container text-center py-5">
-                <h1 class="display-2 text-white mb-4">Events</h1>
+                <h1 class="display-2 text-white mb-4">Photo Gallery</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center mb-0">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
                         <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                        <li class="breadcrumb-item text-white" aria-current="page">Events</li>
+                        <li class="breadcrumb-item text-white" aria-current="page">Photo Gallery</li>
                     </ol>
                 </nav>
             </div>
@@ -175,81 +188,61 @@
         <!-- Page Header End -->
 
 
-        <!-- Events Start -->
-        <div class="container-fluid events py-5 bg-light">
-            <div class="container py-5">
-                <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
-                    <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Our Events</h4>
-                    <h1 class="mb-5 display-3">Our Upcoming Events</h1>
-                </div>
-                <div class="row g-5 justify-content-center">
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="events-item bg-primary rounded">
-                            <div class="events-inner position-relative">
-                                <div class="events-img overflow-hidden rounded-circle position-relative">
-                                    <img src="img/event-1.jpg" class="img-fluid w-100 rounded-circle" alt="Image">
-                                    <div class="event-overlay">
-                                        <a href="img/event-1.jpg" data-lightbox="event-1"><i class="fas fa-search-plus text-white fa-2x"></i></a>
-                                    </div>
-                                </div>
-                                <div class="px-4 py-2 bg-secondary text-white text-center events-rate">29 Nov</div>
-                                <div class="d-flex justify-content-between px-4 py-2 bg-secondary">
-                                    <small class="text-white"><i class="fas fa-calendar me-1 text-primary"></i> 10:00am - 12:00pm</small>
-                                    <small class="text-white"><i class="fas fa-map-marker-alt me-1 text-primary"></i> New York</small>
-                                </div>
-                            </div>
-                            <div class="events-text p-4 border border-primary bg-white border-top-0 rounded-bottom">
-                                <a href="#" class="h4">Music & drawing workshop</a>
-                                <p class="mb-0 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.3s">
-                        <div class="events-item bg-primary rounded">
-                            <div class="events-inner position-relative">
-                                <div class="events-img overflow-hidden rounded-circle position-relative">
-                                    <img src="img/event-2.jpg" class="img-fluid w-100 rounded-circle" alt="Image">
-                                    <div class="event-overlay">
-                                        <a href="img/event-3.jpg" data-lightbox="event-1"><i class="fas fa-search-plus text-white fa-2x"></i></a>
-                                    </div>
-                                </div>
-                                <div class="px-4 py-2 bg-secondary text-white text-center events-rate">29 Nov</div>
-                                <div class="d-flex justify-content-between px-4 py-2 bg-secondary">
-                                    <small class="text-white"><i class="fas fa-calendar me-1 text-primary"></i> 10:00am - 12:00pm</small>
-                                    <small class="text-white"><i class="fas fa-map-marker-alt me-1 text-primary"></i> New York</small>
-                                </div>
-                            </div>
-                            <div class="events-text p-4 border border-primary bg-white border-top-0 rounded-bottom">
-                                <a href="#" class="h4">Why need study</a>
-                                <p class="mb-0 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="events-item bg-primary rounded">
-                            <div class="events-inner position-relative">
-                                <div class="events-img overflow-hidden rounded-circle position-relative">
-                                    <img src="img/event-3.jpg" class="img-fluid w-100 rounded-circle" alt="Image">
-                                    <div class="event-overlay">
-                                        <a href="img/event-3.jpg" data-lightbox="event-1"><i class="fas fa-search-plus text-white fa-2x"></i></a>
-                                    </div>
-                                </div>
-                                <div class="px-4 py-2 bg-secondary text-white text-center events-rate">29 Nov</div>
-                                <div class="d-flex justify-content-between px-4 py-2 bg-secondary">
-                                    <small class="text-white"><i class="fas fa-calendar me-1 text-primary"></i> 10:00am - 12:00pm</small>
-                                    <small class="text-white"><i class="fas fa-map-marker-alt me-1 text-primary"></i> New York</small>
-                                </div>
-                            </div>
-                            <div class="events-text p-4 border border-primary bg-white border-top-0 rounded-bottom">
-                                <a href="#" class="h4">Child health consciousness</a>
-                                <p class="mb-0 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus consectetur,</p>
-                            </div>
-                        </div>
+ <!-- Blog Section Start -->
+<div class="container-fluid blog py-5">
+    <div class="container py-5">
+        <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h4 class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius">Latest News & Blog</h4>
+            <h1 class="mb-5 display-3">Read Our Latest News & Blog</h1>
+        </div>
+        <div class="row g-5 justify-content-center">
+            <!-- Static Images -->
+            <div class="col-md-4 wow fadeIn" data-wow-delay="0.1s">
+                <div class="blog-item rounded-bottom">
+                    <div class="blog-img overflow-hidden position-relative img-border-radius">
+                        <img src="img/blog-1.jpg" class="img-fluid w-100" alt="Image" style="height: 300px; object-fit: cover;">
                     </div>
                 </div>
             </div>
+            <div class="col-md-4 wow fadeIn" data-wow-delay="0.3s">
+                <div class="blog-item rounded-bottom">
+                    <div class="blog-img overflow-hidden position-relative img-border-radius">
+                        <img src="img/blog-2.jpg" class="img-fluid w-100" alt="Image" style="height: 300px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 wow fadeIn" data-wow-delay="0.5s">
+                <div class="blog-item rounded-bottom">
+                    <div class="blog-img overflow-hidden position-relative img-border-radius">
+                        <img src="img/blog-3.jpg" class="img-fluid w-100" alt="Image" style="height: 300px; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dynamically Fetched Images from Database -->
+            <?php
+            $result = $conn->query("SELECT * FROM images");
+            if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) {
+                    echo '
+                    <div class="col-md-4 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="blog-item rounded-bottom">
+                            <div class="blog-img overflow-hidden position-relative img-border-radius">
+                                <img src="' . $row['image_path'] . '" class="img-fluid w-100" alt="Uploaded Image" style="height: 300px; object-fit: cover;">
+                            </div>
+                        </div>
+                    </div>';
+                }
+            } else {
+                echo '<p class="text-center">No images found in the gallery.</p>';
+            }
+            $conn->close();
+            ?>
         </div>
-        <!-- Events End-->
+    </div>
+</div>
+<!-- Blog Section End -->
+
 
 
         <!-- Footer Start -->
