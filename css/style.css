@@ -561,10 +561,12 @@ h6,
     margin-top: -125px;
 }
 
+
 .blog .blog-item .blog-img img,
 .blog .blog-item .blog-content img,
 .blog .blog-item .blog-text-inner a.h4 {
     transition: 0.5s;
+    
 }
 
 .blog .blog-item:hover .blog-img img {
