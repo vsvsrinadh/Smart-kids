@@ -42,12 +42,13 @@
 
 
         <!-- Navbar start -->
-        <div class="container-fluid border-bottom bg-light wow fadeIn" data-wow-delay="0.1s">
+       <!-- Navbar start -->
+       <div class="container-fluid border-bottom bg-light wow fadeIn" data-wow-delay="0.1s">
             <div class="container topbar bg-primary d-none d-lg-block py-2" style="border-radius: 0 40px">
                 <div class="d-flex justify-content-between">
                     <div class="top-info ps-2">
-                        <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">Bhimavaram</a></small>
-                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">smartkids123@gmail.com</a></small>
+                        <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">123 Street, New York</a></small>
+                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Email@Example.com</a></small>
                     </div>
                     <div class="top-link pe-2">
                         <a href="" class="btn btn-light btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-secondary"></i></a>
@@ -136,6 +137,7 @@
                 </nav>
             </div>
         </div>
+        <!-- Navbar End -->
         <!-- Navbar End -->
 
 
