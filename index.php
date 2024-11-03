@@ -47,12 +47,17 @@
                 <div class="d-flex justify-content-between">
                     <div class="top-info ps-2">
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">Bhimavaram</a></small>
                         <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">smartkids123@gmail.com</a></small>
 =======
                         <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">123 Street, Bhimavarram</a></small>
                         <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Email@Example.com</a></small>
 >>>>>>> 115667867b3d2f55bc27358e118e92dfd38759e8
+=======
+                        <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">123 Street, New York</a></small>
+                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">Email@Example.com</a></small>
+>>>>>>> 80a472c09d7ac641a8b45113c0708059d8cf1193
                     </div>
                     <div class="top-link pe-2">
                         <a href="" class="btn btn-light btn-sm-square rounded-circle"><i class="fab fa-facebook-f text-secondary"></i></a>
