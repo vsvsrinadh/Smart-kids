@@ -128,7 +128,7 @@ if ($conn->connect_error) {
 
                                 </div>
                             </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="contact.php" class="nav-item nav-link">Contact</a>
                         </div>
                         <div class="d-flex me-4">
                             <div id="phone-tada" class="d-flex align-items-center justify-content-center">
