@@ -60,7 +60,7 @@
             <div class="container px-0">
                 <nav class="navbar navbar-light navbar-expand-xl py-3">
                     <a href="index.php" class="navbar-brand d-flex align-items-center">
-                    <img src="img/logo.png" alt="logo" style="height:90px;width:auto;margin-right:2px;">
+                    <img src="img/logo.png" alt="logo" style="height:100px;width:auto;margin-right:2px;">
                     <h1 class="text-primary display-6">Star<span class="text-secondary">kids</span></h1>
                    </a>
                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -115,7 +115,7 @@
 
                                 </div>
                             </div>
-                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="contact.php" class="nav-item nav-link">Contact</a>
                         </div>
                         <div class="d-flex me-4">
                             <div id="phone-tada" class="d-flex align-items-center justify-content-center">
@@ -834,7 +834,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>copyrights.Starkids.in</a>, All right reserved.</span>
                     </div>
                     <div class="col-md-6 my-auto text-center text-md-end text-white">
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
