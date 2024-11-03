@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>BabyCare - Daycare Website Template</title>
+        <title>Star Kids</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -164,7 +164,7 @@
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-7 col-md-12">
-                        <h1 class="mb-3 text-primary">We Care Your Baby</h1>
+                        <h1 class="mb-3 text-primary"> Care Your Baby</h1>
                         <h1 class="mb-5 display-1 text-white">The Best Play Area For Your Kids</h1>
                         <a href="" class="btn btn-primary px-4 py-3 px-md-5  me-4 btn-border-radius">Get Started</a>
                         <a href="" class="btn btn-primary px-4 py-3 px-md-5 btn-border-radius">Learn More</a>
@@ -405,7 +405,7 @@
                 </div>
                 <div class="row g-5 justify-content-center">
                     <div class="col-md-6 col-lg-6 col-xl-4 wow fadeIn" data-wow-delay="0.1s">
-                        <div class="events-item bg-primary rounded">
+                       <div class="events-item bg-primary rounded">
                             <div class="events-inner position-relative">
                                 <div class="events-img overflow-hidden rounded-circle position-relative">
                                     <img src="img/event-1.jpg" class="img-fluid w-100 rounded-circle" alt="Image">
